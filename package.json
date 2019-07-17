@@ -1,8 +1,27 @@
 {
   "name": "prismy-session-redis",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Session storage for prismy-session",
+  "author": "Junyoung Choi <rokt33r.choi@gmail.com>",
+  "keywords": [
+    "prismy",
+    "session",
+    "redis"
+  ],
+  "homepage": "https://github.com/prismyland/prismy-cookie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prismyland/prismy-session-redis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prismyland/prismy-session-redis/issues"
+  },
+  "license": "MIT",
+  "main": "dist",
+  "files": [
+    "dist/**/*",
+    "!dist/specs/**/*"
+  ],
   "scripts": {
     "build": "rimraf dist && tsc",
     "lint": "prettier --check src/**/*.ts examples/*/src/**/*.ts",
@@ -12,9 +31,6 @@
     "codecov": "codecov",
     "prepublishOnly": "npm run lint && npm test && npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^12.6.6",
     "@types/redis": "^2.8.13",
