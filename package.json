@@ -1,6 +1,6 @@
 {
   "name": "prismy-session-redis",
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "description": "Session storage for prismy-session",
   "author": "Junyoung Choi <rokt33r.choi@gmail.com>",
   "keywords": [
