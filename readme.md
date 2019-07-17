@@ -1,6 +1,6 @@
 # `prismy-session-redis`
 
-Session storage for `prismy-session`
+Session storage for [`prismy-session`](https://github.com/prismyland/prismy-session)
 
 ```
 npm i prismy-session prismy-session-redis
